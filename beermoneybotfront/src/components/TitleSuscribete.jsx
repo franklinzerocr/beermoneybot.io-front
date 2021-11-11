@@ -2,15 +2,14 @@ import React from 'react'
 import Layout from '../containers/Layout';
 import '../styles/Title.scss'
 
-const TitleQueEs = () => {
+const TitleSucribete = () => {
     return(
         <Layout>
-            <div className="title-first">¿Qué es</div>
-            <div className="title-second">Beermoney Bot?</div>
+            <div className="title-first">Sucribete en el plan que prefieras</div>
         </Layout>
         
         
     );
 }
 
-export default TitleQueEs;
+export default TitleSucribete;
