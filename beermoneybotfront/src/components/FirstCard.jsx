@@ -9,7 +9,6 @@ const First_Card = () => {
             <img src={process.env.PUBLIC_URL + '/image_card1.jpg'} alt="image_card1" className="first-card"/>
             </Grid>
         </Grid>
-
     );
 }
 

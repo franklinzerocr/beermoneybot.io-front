@@ -19,7 +19,6 @@ const Home = () => {
             <Comprueba/>
             <TitleSucribete/>
         </Layout>
-        
     );
 }
 
