@@ -1,22 +1,22 @@
 import React from 'react';
 import FirstCard from '../components/FirstCard';
-import Header from '../components/Header';
-import TitleComoOpera from '../components/TitleComoOpera';
-import TitleComoUsar from '../components/TitleComoUsar';
-import TitleComprueba from '../components/TitleComprueba';
-import TitleQueEs from '../components/TitleQueEs';
 import TitleSucribete from '../components/TitleSuscribete';
 import Layout from '../containers/Layout';
+import Header from '../components/Header';
+import QueEs from './QueEs'
+import ComoOpera from './ComoOpera';
+import ComoUsar from './ComoUsar';
+import Comprueba from './CompruebaResultados';
 
 const Home = () => {
     return(
         <Layout>
             <Header/>
             <FirstCard/>
-            <TitleQueEs/>
-            <TitleComoOpera/>
-            <TitleComoUsar/>
-            <TitleComprueba/>
+            <QueEs/>
+            <ComoOpera/>
+            <ComoUsar/>
+            <Comprueba/>
             <TitleSucribete/>
         </Layout>
         

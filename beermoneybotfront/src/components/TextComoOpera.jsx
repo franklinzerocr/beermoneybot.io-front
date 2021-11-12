@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const TextQueEs = () => {
+const TextComoOpera = () => {
     return(
             <p className="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -11,7 +11,8 @@ const TextQueEs = () => {
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint 
                 occaecat cupidatat non proident, sunt in culpa qui officia 
                 deserunt mollit anim id est laborum. </p>
+       
     );
 }
 
-export default TextQueEs;
+export default TextComoOpera;

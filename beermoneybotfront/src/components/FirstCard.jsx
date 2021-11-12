@@ -6,9 +6,10 @@ const First_Card = () => {
     return (
         <Grid container spacing={2}>
             <Grid item xs={12}>
-            <img src="./public/image_card1.jpg" alt="image_card1" className="logo"/>
+            <img src={process.env.PUBLIC_URL + '/image_card1.jpg'} alt="image_card1" className="first-card"/>
             </Grid>
         </Grid>
+
     );
 }
 

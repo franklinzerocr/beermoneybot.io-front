@@ -4,39 +4,28 @@ import '../styles/Header.scss'
 const Header = () => {
     return (
         <nav>
-            <img src="./icons/icon_menu.svg" alt="menu" className="menu" />
+            <img src={process.env.PUBLIC_URL + '/Logo-definitivo-03.png'} alt="logo" className="logo" />
 
-            <div className="navbar-left">
-                <img src="./logos/logo_yard_sale.svg" alt="logo" className="logo" />
-
-                <ul>
-                    <li>
-                        <a href="/">All</a>
-                    </li>
-                    <li>
-                        <a href="/">Clothes</a>
-                    </li>
-                    <li>
-                        <a href="/">Electronics</a>
-                    </li>
-                    <li>
-                        <a href="/">Furnitures</a>
-                    </li>
-                    <li>
-                        <a href="/">Toys</a>
-                    </li>
-                    <li>
-                        <a href="/">Others</a>
-                    </li>
-                </ul>
+            <div className="navbar-right">
+          
             </div>
 
             <div className="navbar-right">
-                <ul>
-                    <li className="navbar-email">platzi@example.com</li>
-                    <li className="navbar-shopping-cart">
-                        <img src="./icons/icon_shopping_cart.svg" alt="shopping cart" />
-                        <div>2</div>
+            <ul>
+                    <li>
+                        <a href="/">Sobre nosotros</a>
+                    </li>
+                    <li>
+                        <a href="/">Ganancias</a>
+                    </li>
+                    <li>
+                        <a href="/">Instrucciones</a>
+                    </li>
+                    <li>
+                        <a href="/">Ingresa VIP</a>
+                    </li>
+                    <li>
+                        <a href="/">Others</a>
                     </li>
                 </ul>
             </div>
