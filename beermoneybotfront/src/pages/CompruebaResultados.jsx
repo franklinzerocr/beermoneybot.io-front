@@ -1,16 +1,17 @@
 import React from 'react'
 import Grid from '@mui/material/Grid';
 import TitleComprueba from '../components/TitleComprueba';
+import LayoutSection from '../containers/LayoutSection';
 
 const Comprueba = () => {
     return(
-        <Grid container spacing={2}>
-            <Grid item xs={3}></Grid>
-            <Grid item xs={6}> 
-                <TitleComprueba/>
-            </Grid> 
-            <Grid item xs={3}></Grid>
-        </Grid>
+        <LayoutSection>
+            <Grid container spacing={2}>
+                <Grid item xs={12}> 
+                    <TitleComprueba/>
+                </Grid> 
+            </Grid>
+        </LayoutSection>
     );
 }
 

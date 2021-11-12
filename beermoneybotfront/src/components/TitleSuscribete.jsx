@@ -5,7 +5,7 @@ import '../styles/Title.scss'
 const TitleSucribete = () => {
     return(
         <Layout>
-            <div className="title-first">Sucribete en el plan que prefieras</div>
+            <div className="title-center">Sucribete en el plan que prefieras</div>
         </Layout>
         
         

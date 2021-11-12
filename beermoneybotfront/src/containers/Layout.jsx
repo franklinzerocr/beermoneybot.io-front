@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/LayoutVerificar.scss'
 
 const Layout = ({children}) =>  {
     return(

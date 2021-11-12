@@ -5,7 +5,7 @@ import '../styles/Title.scss'
 const TitleComprueba = () => {
     return(
         <Layout>
-            <div className="title-first">Comprueba los resultados de último mes</div>
+            <div className="title-center">Comprueba los resultados de último mes</div>
         </Layout>
         
         
